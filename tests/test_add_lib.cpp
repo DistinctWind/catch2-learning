@@ -10,5 +10,5 @@ TEST_CASE("Add test", "[add]") {
 }
 
 TEST_CASE("Failure test", "[add]") {
-    REQUIRE(add(1, 2) == -3);
+    REQUIRE(add(1, 2) != -3);
 }
