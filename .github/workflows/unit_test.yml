@@ -28,7 +28,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: configure code
-        run: cmake -B build -S .
+        run: cmake --preset "debug" -B build -S .
       
       - name: build this code
         run: cd build && cmake --build .
