@@ -32,6 +32,12 @@ jobs:
       
       - name: build this code
         run: cd build && cmake --build .
+        
+      - name: show wd
+        run: pwd
+        
+      - name: show files
+        run: ls
       
       - name: run unit tests
         run: ctest
