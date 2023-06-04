@@ -1,0 +1,6 @@
+.devcontainer
+.idea
+.vscode
+build*
+cmake-*
+debug*
